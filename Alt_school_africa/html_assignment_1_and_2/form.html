@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+ <!--The skip is here because we are trying to bypass the header-->
+ <a href="#main">Skip to main content</a>
+<header>
+  <nav>
+
+  
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="form.html" aria-current="page">Application Form</a></li>
+      <li>
+        <details>
+         <summary>Programs</summary>
+         <ul>
+            <li><a href="#diploma">Diploma</a></li>
+            <li><a href="#nano-diploma">Nano-Diploma</a></li>
+            <li><a href="#masterclasses">Masterclasses</a></li>
+         </ul>
+        </details>
+    
+     </li>
+
+      <li>
+        <details>
+        <summary>Learning Center</summary>
+        <ul>
+        <li><a href="#learning-resources">Learning Resources</a></li>
+        <li><a href="courses">Courses</a></li>
+        <li><a href="events">Events</a></li>
+        </details>
+     </li>
+
+    </ul>          
+  </nav>
+</header>
+ <main id="main">
+    <h1>Programs</h1>
+    <aside>
+        <p>All our programs are acredited by National Board for Technical Education
+        (NBTE)</p>
+    </aside>
+    <nav aria-label="Program types">
+        <ul>
+            <li><a href="#diploma">Diploma</a></li>
+            <li><a href="#nano-diploma">Nano-Diploma</a></li>
+            <li><a href="#masterclasses">Masterclasses</a></li>
+        </ul>
+    </nav>
+    <section id="diploma">
+        <h2>Diploma</h2>
+        <ul>
+           <li>
+             <article>
+                <p>Marketing</p>
+                <p>Diploma</p>
+                <h3>Digital Marketing Automation and Sales</h3>
+                <p>Learn how to leverage AI and Automation to drive sales,
+                    build Marketing systems, and scale digital businesses.
+
+                </p>
+                <p><strong>Duration : </strong> 12 Months</p>
+                <a href="#apply">Apply</a>
+             </article>
+           </li>
+           <li>
+             <article>
+               <p>Products</p>
+               <p>Diploma</p>
+
+               <h3>Technical Product Management</h3>
+
+               <p>Learn to bridge business,
+                   technology, and user needs to build and Manage
+                   impactful digital products.
+               </p>
+
+               <p><strong>Duration : </strong> 12 Months</p>
+               <a href="#apply">Apply</a>
+
+             </article>
+           </li>
+           <li>
+            <article>
+              <p>Technology</p>
+              <p>Diploma</p>
+
+              <h3>AI-Powered Fullstack Engineering</h3>
+              <p>Build modern web applications with AI-powered tools, 
+                covering both frontend and backend development.
+              </p>
+              <p><strong>Duration : </strong> 12 Months</p>
+              <a href="#apply">Apply</a>
+           </article>
+           </li>
+           <li>
+            <article>
+                <p>Technology</p>
+                <p>Diploma</p>
+
+                <h3>Cyber Security</h3>
+
+                <p>Learn the skills and knowledge needed to protect
+                    digital systems, networks, and data from cyber threats.
+                </p>
+
+                <p><strong>Duration : </strong> 12 Months</p>
+
+                <a href="#apply">Apply</a>
+            </article>
+
+           </li>
+           <li>
+            <article>
+              <p>Data</p>
+              <p>Diploma</p>
+
+              <h3>Data Science</h3>
+
+              <p>Learn to use data, statistics, and machine 
+                learning to solve real-world problems and build 
+                data-driven solutions.
+              </p>
+
+              <p><strong>Duration : </strong> 12 Months</p>
+              <a href="#apply">Apply</a>
+
+            </article>
+           </li>
+           <li>
+            <article>
+               <p>Data</p>
+               <p>Diploma</p>
+
+               <h3>Data analysis</h3>
+
+               <p>Learn to collect, clean, analyse, and visualise 
+                  data to uncover insights and support better decision-making.
+               </p>
+
+               <p><strong>Duration : </strong> 12 Months</p>
+
+               <a href="#apply">Apply</a>
+
+            </article>
+           </li>
+           <li>
+             <article>
+
+                <p>Technology</p>
+                <p>Diploma</p>
+
+                <h3>Cloud Engineering</h3>
+
+                <p>Learn how to design, deploy, and Manage
+                    scalable cloud-based infrastructure
+                    and applications.
+                </p>
+                <p><srong>Duration : </srong> 12 Months</p>
+                <a href="#apply">Apply</a>
+             </article>
+
+           </li> 
+        </ul>
+
+        <p>Showing 1 to 7 of 7</p>
+
+        <nav aria-label="Diploma pagination">
+           <ul>
+            <li>Previous</li>
+            <li>1 / 1</li>
+            <li>Next</li>
+           </ul> 
+
+        </nav>
+    </section>
+
+    <section id="nano-diploma">
+        <h2>Nano-Diploma</h2>
+        <p>No programmes available</p>
+
+
+    </section>
+    <section id="masterclasses">
+      <h2>Masterclasses</h2>
+      <p>No programmes available</p>
+    </section>
+
+    <section id="apply">
+      <h2>Apply to AI-Powered Fullstack Engineering</h2>
+
+      <p>We will like to know more about you</p>
+
+      <form>
+        <label for="program">Program</label>
+         <select id="program" name="program">
+            <option>Digital Marketing Automation and sales</option>
+            <option>Technical Product Management</option>
+            <option>AI-Powered Fullstack Engineering</option>
+            <option>Cyber Security</option>
+            <option>Data Science</option>
+            <option>Data Analysis</option>
+            <option>Cloud Engineering</option>
+         </select>
+
+         <label for="discount-code">Discount code</label>
+         <input 
+           type="text"
+           id="discount-code"
+           name="discount-code"
+           placeholder="Enter discount code">
+         <p>By submitting this form, I agree to the 
+            <a href="#">Terms of Use</a> and
+            <a href="#">Privacy Policy</a>
+         </p>
+         <button type="submit">Apply Now</button>
+      </form>
+
+
+    </section>
+    <section id="order">
+      <h2>Order Summary</h2>
+
+      <p>Diploma</p>
+      <p>Application Fee : ₦15, 000</p>
+      <a href="#apply">Back</a>
+
+      <button type="button">Checkout</button>
+
+
+    </section>
+
+
+
+ </main>
+
+ <footer>
+    <address>
+        Lagos, Nigeria<br>
+     <a href="mailto:support@altschoolafrica.com">support@altschoolafrica.com</a>
+    </address>
+ </footer>
+ <p>&copy; 2026 Olukayode Adeyemo Abiodun.
+    All rights reserved.
+ </p>
+
+</body>
+ </html>
+
+
+ 
